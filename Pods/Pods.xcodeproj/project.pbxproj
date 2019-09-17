@@ -1,0 +1,1111 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027408D52CE24E65561DFDE7E655F5EF /* UIButton+KJEnlargeTouchArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 72728D7E3F7312E8C76CBA5EF5CD54FC /* UIButton+KJEnlargeTouchArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068E0299E275996315662FC2F3E19F91 /* Pods-KJScanDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8209C2D9C9346B54BB1E3E8E46B2D649 /* Pods-KJScanDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C5029E8FA9A534A9753746FEF8667C /* UIView+KJGestureBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7824E5BC593E2347FAA34AC3E9954 /* UIView+KJGestureBlock.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		224EADCA443866C23876B4CFA0060C95 /* UIImage+KJFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E776D2CDF9B5D393759DB55ADF87B51E /* UIImage+KJFilter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		24F91D19C2F03DC3B286BACE0235D8B3 /* UIView+KJGestureBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 1365CEEB66C292FF37959611E3E079A2 /* UIView+KJGestureBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2518264346D22F4AA10063205AE8364C /* UIView+KJAppointView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65991448FB3C231CCC60B1650413C22 /* UIView+KJAppointView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2D8418B3456FC1DD03EAFDC63DF93E58 /* UIImage+KJFloodFill.m in Sources */ = {isa = PBXBuildFile; fileRef = E759F9C4B7B7EE7C5DD34F398F18AC8C /* UIImage+KJFloodFill.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		32A11592993E2DB29364F1591EA51DE2 /* UIButton+KJButtonContentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBFE6B34BABCB3042DF426FD3057065 /* UIButton+KJButtonContentLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A38FD850747A67B58DFAB84F20EFE7 /* UIImage+KJFloodFill.h in Headers */ = {isa = PBXBuildFile; fileRef = 80ADD201E7EFDD67D60906635071415F /* UIImage+KJFloodFill.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B11DBD8FE7B75DF62206471A505E9F9 /* UITextView+KJPlaceHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC2CCC05A08BAE713D0F0536AC3B19E /* UITextView+KJPlaceHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40F3710A2998B4683CB5FEA1E0CCA3BF /* UITextView+KJLimitCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC9F53AB0716BE42CBE760EEA43C0A0 /* UITextView+KJLimitCounter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60E88086F2E3BA199D3E58EE3F59F99A /* UIView+KJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6627369F2D710C2E8045747A0828FCBD /* UIView+KJFrame.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6180BCAA29B375715119ABC19A2CDE5C /* UIView+KJXib.h in Headers */ = {isa = PBXBuildFile; fileRef = AF1FCFB43E14E0C7F9B62A3FC424A41C /* UIView+KJXib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6197F47BE67D8FD1646D73A5C75A9ABD /* UIBarButtonItem+KJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7987D3762EF8761585FCB8C898C39D /* UIBarButtonItem+KJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69ECCE8E944B5C2AE7601927A5816E29 /* Pods-KJScanDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A13B155046A57ABE547FEF2A797D27 /* Pods-KJScanDemoTests-dummy.m */; };
+		70CAECC4CD8C366533DE9B62391A7D26 /* Pods-KJScanDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 475DB7A69112EAAC95574A726DFB2A07 /* Pods-KJScanDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70FDE1A01A91C4AE6A9E8838797F978B /* UIView+KJRectCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 253D369528E46A2DD3E303C4D21608F7 /* UIView+KJRectCorner.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		76FA3584F3B378DDD8C872B29FC30A32 /* UILabel+KJAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = AE854F5D22EBCC89B956695A82F20538 /* UILabel+KJAttributedString.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7990EB190D3A4B69ED76CE59BC93EEF6 /* UIView+KJXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E255E31A426627B6FD451B2ADF9A6E0 /* UIView+KJXib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		85CBA5A05461E0717CF8CF29685F650F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901A4FD362D028D8375DDAE4615B6D80 /* Foundation.framework */; };
+		867EB42D3CB4D702209B941FB101707A /* UIView+KJAppointView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC631CA31B3861E3C888CFADCE5A3E4E /* UIView+KJAppointView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		896F247FD1CB574CACD4111099C45A07 /* UIBarButtonItem+KJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0ABD3D1AE846FF00E0C55FB570C09A /* UIBarButtonItem+KJExtension.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8B383E922F3F1460B6AB7CA697F59F44 /* Pods-KJScanDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3134565B4B001815A83EDD863C4C5EEB /* Pods-KJScanDemo-dummy.m */; };
+		8EDFE3C866356FF43A599EBCB7DF0D1A /* UINavigationBar+KJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D1420FBF542ADDB4F11E58A929304E /* UINavigationBar+KJExtension.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9A468BC47D272B3C104BE481DC6668B9 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA807F5150DFFAA7CA6E6A8AA17A6C7 /* Accelerate.framework */; };
+		9A52040D5FBD4E3A97DDAA5902CE02A9 /* UINavigationBar+KJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E45D02156469D0A10015DCD5937939F3 /* UINavigationBar+KJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CCBFAB80AB657D59DAF14EDDA3661D7 /* UIImage+KJFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7D065BC3D24B7003BE62686C13E51C /* UIImage+KJFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F68B260075F7B389E7C92C9EA310461 /* _KJMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B2BB8E5DD19167032FF114AED76608F /* _KJMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A36783926956C0226E392DB02D16A504 /* KJEmitterView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12719C6C5551876F670F5F9818F94429 /* KJEmitterView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3C1BAD0E6CF0143D64CC4E022C382D3 /* KJEmitterHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8217D0AA0FFD658624DEBE73300F7343 /* KJEmitterHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9764866038976A28C4D0C54FC6A0379 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8C564CEF5B808D8A2DDAD1A29BC976 /* UIKit.framework */; };
+		AB99EA6310D1C8E270CBEFBDD4C2D59A /* UIImage+KJProcessing.h in Headers */ = {isa = PBXBuildFile; fileRef = 480E65AAD7932E96128A36837110BD33 /* UIImage+KJProcessing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B227CCCF940264168CEF14CF75583FAD /* UILabel+KJAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = C28C7B5E655EF45BAEEF87B90120B5A0 /* UILabel+KJAttributedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B35D762474DBE9032CFE20259984D552 /* UIView+KJRectCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE23D555D27600F07C6E26CF168BD8F /* UIView+KJRectCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B792BCD03DF6BC41EFA75D43DBBE2AE4 /* UIButton+KJBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF3C5EE22FEBF78ED1A100EC64A5A18 /* UIButton+KJBlock.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BD09A0DE5C5157737262922D801A5A13 /* KJEmitterView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFBE936D2D77057B5173D784599670B /* KJEmitterView-dummy.m */; };
+		BDBBB635AC061E3B9E694D24C0A5A311 /* UITextView+KJLimitCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7841EB97902815BC0E80E79B7971787A /* UITextView+KJLimitCounter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CC836BC77B85A435C00F6B045C695D88 /* UIButton+KJBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6172530881023B24437158FE2BB74886 /* UIButton+KJBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1A32B19FE4C9F94C2DC1A3CC1A2BC69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901A4FD362D028D8375DDAE4615B6D80 /* Foundation.framework */; };
+		D838E61BA1B942EC36A2A3822BBDA2C5 /* UITextView+KJPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3762251F2A7694C9C9BAD9265D473803 /* UITextView+KJPlaceHolder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DA16209B4F68DCD09673185008F8DF9C /* UIButton+KJEnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E82991877C1FE6041B360F9362C002 /* UIButton+KJEnlargeTouchArea.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DAE3D968AE94BE4DFAD8DA8D4ABBB277 /* Pods-KJScanDemo-KJScanDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E150519B267DC4F11544AC3D43E3D622 /* Pods-KJScanDemo-KJScanDemoUITests-dummy.m */; };
+		E2A873F723D936A9A1B67D37100B6DC2 /* UIButton+KJButtonContentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A08FB7310E33DBB4645B8B92D2E8164 /* UIButton+KJButtonContentLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E50708B4CB3F4D661834B43164BAAB95 /* Pods-KJScanDemo-KJScanDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC1DA1EB8F1D23E8B24E1BF75806D7CB /* Pods-KJScanDemo-KJScanDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E69C08ECCEAF2F3DABAD52C230967FCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901A4FD362D028D8375DDAE4615B6D80 /* Foundation.framework */; };
+		EA44F28BEFC2AE1E0DEEB56707B40E99 /* UIView+KJFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B5F8F43B8F075D93362B6424E3253A /* UIView+KJFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA7733A53C589544FD17317A622AE44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901A4FD362D028D8375DDAE4615B6D80 /* Foundation.framework */; };
+		EE4C842ECD7533FDB5A0A195E14F3FE0 /* UIImage+KJProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 76492386A68239BDC955A0FFC73FD7C9 /* UIImage+KJProcessing.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1922D49D01476F9D62CD07E768021F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3996909D7C52C9F84E0C4A67BCBC4EEC;
+			remoteInfo = KJEmitterView;
+		};
+		428F6E8028668EB313823C5C7EE91AC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFEE209D1244BD5FDC32D26AEBA1C156;
+			remoteInfo = "Pods-KJScanDemo";
+		};
+		AAC8232E526568B92499F76C37C95278 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3996909D7C52C9F84E0C4A67BCBC4EEC;
+			remoteInfo = KJEmitterView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D7B695956E77296D7F3187F967E664 /* Pods-KJScanDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KJScanDemo-frameworks.sh"; sourceTree = "<group>"; };
+		0CBFE6B34BABCB3042DF426FD3057065 /* UIButton+KJButtonContentLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+KJButtonContentLayout.h"; path = "KJEmitterView/Kit/UIButton/UIButton+KJButtonContentLayout.h"; sourceTree = "<group>"; };
+		10B5F8F43B8F075D93362B6424E3253A /* UIView+KJFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KJFrame.h"; path = "KJEmitterView/Kit/UIView/UIView+KJFrame.h"; sourceTree = "<group>"; };
+		12719C6C5551876F670F5F9818F94429 /* KJEmitterView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KJEmitterView-umbrella.h"; sourceTree = "<group>"; };
+		1365CEEB66C292FF37959611E3E079A2 /* UIView+KJGestureBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KJGestureBlock.h"; path = "KJEmitterView/Kit/UIView/UIView+KJGestureBlock.h"; sourceTree = "<group>"; };
+		13EDA2E8377CCE59EF0ACDBBF054F6D3 /* Pods-KJScanDemo-KJScanDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KJScanDemo-KJScanDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BA807F5150DFFAA7CA6E6A8AA17A6C7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		253D369528E46A2DD3E303C4D21608F7 /* UIView+KJRectCorner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KJRectCorner.m"; path = "KJEmitterView/Kit/UIView/UIView+KJRectCorner.m"; sourceTree = "<group>"; };
+		2A66092AA668809FC4D254AD537F1CFF /* Pods-KJScanDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KJScanDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B51E3D4A3C237FA85D49B0743DF04C7 /* Pods-KJScanDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KJScanDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F7D065BC3D24B7003BE62686C13E51C /* UIImage+KJFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KJFilter.h"; path = "KJEmitterView/Kit/UIImage/UIImage+KJFilter.h"; sourceTree = "<group>"; };
+		3134565B4B001815A83EDD863C4C5EEB /* Pods-KJScanDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KJScanDemo-dummy.m"; sourceTree = "<group>"; };
+		33D1420FBF542ADDB4F11E58A929304E /* UINavigationBar+KJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+KJExtension.m"; path = "KJEmitterView/Kit/UINavigationBar/UINavigationBar+KJExtension.m"; sourceTree = "<group>"; };
+		3762251F2A7694C9C9BAD9265D473803 /* UITextView+KJPlaceHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+KJPlaceHolder.m"; path = "KJEmitterView/Kit/UITextView/UITextView+KJPlaceHolder.m"; sourceTree = "<group>"; };
+		3B2BB8E5DD19167032FF114AED76608F /* _KJMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _KJMacros.h; path = KJEmitterView/Kit/KJMacros/_KJMacros.h; sourceTree = "<group>"; };
+		3C7987D3762EF8761585FCB8C898C39D /* UIBarButtonItem+KJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+KJExtension.h"; path = "KJEmitterView/Kit/UIBarButtonItem/UIBarButtonItem+KJExtension.h"; sourceTree = "<group>"; };
+		3F678908882A4C16038E86E23FA619BD /* Pods-KJScanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KJScanDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4526C50D6167FBFB0A1DB5F913DF31FF /* Pods-KJScanDemo-KJScanDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KJScanDemo-KJScanDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		475DB7A69112EAAC95574A726DFB2A07 /* Pods-KJScanDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KJScanDemo-umbrella.h"; sourceTree = "<group>"; };
+		480E65AAD7932E96128A36837110BD33 /* UIImage+KJProcessing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KJProcessing.h"; path = "KJEmitterView/Kit/UIImage/UIImage+KJProcessing.h"; sourceTree = "<group>"; };
+		4E255E31A426627B6FD451B2ADF9A6E0 /* UIView+KJXib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KJXib.m"; path = "KJEmitterView/Kit/UIView/UIView+KJXib.m"; sourceTree = "<group>"; };
+		571403CBD7B8198AA058240775B8D765 /* Pods-KJScanDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KJScanDemoTests.modulemap"; sourceTree = "<group>"; };
+		5844C62A451740BD3D12036233D03044 /* KJEmitterView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KJEmitterView.xcconfig; sourceTree = "<group>"; };
+		58FF7D839B827919500D4F5ADB7DB44D /* Pods-KJScanDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KJScanDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BC2CCC05A08BAE713D0F0536AC3B19E /* UITextView+KJPlaceHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+KJPlaceHolder.h"; path = "KJEmitterView/Kit/UITextView/UITextView+KJPlaceHolder.h"; sourceTree = "<group>"; };
+		6172530881023B24437158FE2BB74886 /* UIButton+KJBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+KJBlock.h"; path = "KJEmitterView/Kit/UIButton/UIButton+KJBlock.h"; sourceTree = "<group>"; };
+		6627369F2D710C2E8045747A0828FCBD /* UIView+KJFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KJFrame.m"; path = "KJEmitterView/Kit/UIView/UIView+KJFrame.m"; sourceTree = "<group>"; };
+		67A13B155046A57ABE547FEF2A797D27 /* Pods-KJScanDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KJScanDemoTests-dummy.m"; sourceTree = "<group>"; };
+		684B94A8F3568E4D055287CC4BD79C41 /* Pods-KJScanDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KJScanDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6DB15E4B55B7F533F12C2DF1BEDE7424 /* Pods-KJScanDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KJScanDemoTests-Info.plist"; sourceTree = "<group>"; };
+		6F0B8E6769E23AA950ACA25CDBB26F7F /* Pods-KJScanDemo-KJScanDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KJScanDemo-KJScanDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		72728D7E3F7312E8C76CBA5EF5CD54FC /* UIButton+KJEnlargeTouchArea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+KJEnlargeTouchArea.h"; path = "KJEmitterView/Kit/UIButton/UIButton+KJEnlargeTouchArea.h"; sourceTree = "<group>"; };
+		76492386A68239BDC955A0FFC73FD7C9 /* UIImage+KJProcessing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KJProcessing.m"; path = "KJEmitterView/Kit/UIImage/UIImage+KJProcessing.m"; sourceTree = "<group>"; };
+		777A031FDBF26C846AB6C6846FBDB04F /* Pods-KJScanDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KJScanDemo.modulemap"; sourceTree = "<group>"; };
+		7841EB97902815BC0E80E79B7971787A /* UITextView+KJLimitCounter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+KJLimitCounter.m"; path = "KJEmitterView/Kit/UITextView/UITextView+KJLimitCounter.m"; sourceTree = "<group>"; };
+		7A48989B501F24F195EA59849E2F418A /* Pods_KJScanDemo_KJScanDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KJScanDemo_KJScanDemoUITests.framework; path = "Pods-KJScanDemo-KJScanDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80ADD201E7EFDD67D60906635071415F /* UIImage+KJFloodFill.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+KJFloodFill.h"; path = "KJEmitterView/Kit/UIImage/UIImage+KJFloodFill.h"; sourceTree = "<group>"; };
+		8209C2D9C9346B54BB1E3E8E46B2D649 /* Pods-KJScanDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KJScanDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		8217D0AA0FFD658624DEBE73300F7343 /* KJEmitterHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KJEmitterHeader.h; path = KJEmitterView/KJEmitterHeader.h; sourceTree = "<group>"; };
+		8A08FB7310E33DBB4645B8B92D2E8164 /* UIButton+KJButtonContentLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+KJButtonContentLayout.m"; path = "KJEmitterView/Kit/UIButton/UIButton+KJButtonContentLayout.m"; sourceTree = "<group>"; };
+		8B73795BF0C3C2CA34D26460AB68F6B0 /* Pods-KJScanDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KJScanDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C786A580B06DD6A31F19D230FB50E7D /* Pods-KJScanDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KJScanDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8FAD55DB8DD57590E1C71A552C31D039 /* KJEmitterView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KJEmitterView.framework; path = KJEmitterView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		901A4FD362D028D8375DDAE4615B6D80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		92932423D1BE52B5906A5D4338858D45 /* KJEmitterView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KJEmitterView-prefix.pch"; sourceTree = "<group>"; };
+		93BCF5CB7AF4C1770230887893CEBD9F /* Pods-KJScanDemo-KJScanDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KJScanDemo-KJScanDemoUITests.modulemap"; sourceTree = "<group>"; };
+		93E82991877C1FE6041B360F9362C002 /* UIButton+KJEnlargeTouchArea.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+KJEnlargeTouchArea.m"; path = "KJEmitterView/Kit/UIButton/UIButton+KJEnlargeTouchArea.m"; sourceTree = "<group>"; };
+		97F32D918790B02950645A8869AA2C25 /* KJEmitterView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KJEmitterView.modulemap; sourceTree = "<group>"; };
+		9857CC6C1BF0474925FD8C1D4B085278 /* Pods-KJScanDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KJScanDemo-Info.plist"; sourceTree = "<group>"; };
+		9BE23D555D27600F07C6E26CF168BD8F /* UIView+KJRectCorner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KJRectCorner.h"; path = "KJEmitterView/Kit/UIView/UIView+KJRectCorner.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0ABD3D1AE846FF00E0C55FB570C09A /* UIBarButtonItem+KJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+KJExtension.m"; path = "KJEmitterView/Kit/UIBarButtonItem/UIBarButtonItem+KJExtension.m"; sourceTree = "<group>"; };
+		A65991448FB3C231CCC60B1650413C22 /* UIView+KJAppointView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KJAppointView.m"; path = "KJEmitterView/Kit/UIView/UIView+KJAppointView.m"; sourceTree = "<group>"; };
+		ACF3C5EE22FEBF78ED1A100EC64A5A18 /* UIButton+KJBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+KJBlock.m"; path = "KJEmitterView/Kit/UIButton/UIButton+KJBlock.m"; sourceTree = "<group>"; };
+		AE854F5D22EBCC89B956695A82F20538 /* UILabel+KJAttributedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+KJAttributedString.m"; path = "KJEmitterView/Kit/UILabel/UILabel+KJAttributedString.m"; sourceTree = "<group>"; };
+		AF1FCFB43E14E0C7F9B62A3FC424A41C /* UIView+KJXib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KJXib.h"; path = "KJEmitterView/Kit/UIView/UIView+KJXib.h"; sourceTree = "<group>"; };
+		B8EB7164BEE11AA5E44318CAC2C21788 /* KJEmitterView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KJEmitterView-Info.plist"; sourceTree = "<group>"; };
+		BC631CA31B3861E3C888CFADCE5A3E4E /* UIView+KJAppointView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+KJAppointView.h"; path = "KJEmitterView/Kit/UIView/UIView+KJAppointView.h"; sourceTree = "<group>"; };
+		C28C7B5E655EF45BAEEF87B90120B5A0 /* UILabel+KJAttributedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+KJAttributedString.h"; path = "KJEmitterView/Kit/UILabel/UILabel+KJAttributedString.h"; sourceTree = "<group>"; };
+		C96D3E284056DC64EEC9DDEE94ED32D3 /* Pods_KJScanDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KJScanDemoTests.framework; path = "Pods-KJScanDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDFBE936D2D77057B5173D784599670B /* KJEmitterView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KJEmitterView-dummy.m"; sourceTree = "<group>"; };
+		D7213CB14E0BF22DDE8BDB5E334FC437 /* Pods-KJScanDemo-KJScanDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KJScanDemo-KJScanDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D9F7824E5BC593E2347FAA34AC3E9954 /* UIView+KJGestureBlock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+KJGestureBlock.m"; path = "KJEmitterView/Kit/UIView/UIView+KJGestureBlock.m"; sourceTree = "<group>"; };
+		E150519B267DC4F11544AC3D43E3D622 /* Pods-KJScanDemo-KJScanDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KJScanDemo-KJScanDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		E45D02156469D0A10015DCD5937939F3 /* UINavigationBar+KJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+KJExtension.h"; path = "KJEmitterView/Kit/UINavigationBar/UINavigationBar+KJExtension.h"; sourceTree = "<group>"; };
+		E565989494D5434861904B2073B9E0D2 /* Pods-KJScanDemo-KJScanDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KJScanDemo-KJScanDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E759F9C4B7B7EE7C5DD34F398F18AC8C /* UIImage+KJFloodFill.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KJFloodFill.m"; path = "KJEmitterView/Kit/UIImage/UIImage+KJFloodFill.m"; sourceTree = "<group>"; };
+		E776D2CDF9B5D393759DB55ADF87B51E /* UIImage+KJFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KJFilter.m"; path = "KJEmitterView/Kit/UIImage/UIImage+KJFilter.m"; sourceTree = "<group>"; };
+		EBC9F53AB0716BE42CBE760EEA43C0A0 /* UITextView+KJLimitCounter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+KJLimitCounter.h"; path = "KJEmitterView/Kit/UITextView/UITextView+KJLimitCounter.h"; sourceTree = "<group>"; };
+		EC1DA1EB8F1D23E8B24E1BF75806D7CB /* Pods-KJScanDemo-KJScanDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KJScanDemo-KJScanDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		F134A5CEEA1FC69598EC07951ACDE765 /* Pods-KJScanDemo-KJScanDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KJScanDemo-KJScanDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F22C286831A8D048B63926B27D28579B /* Pods-KJScanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KJScanDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F887F2F85F1C0E57F9DE454263F401B5 /* Pods_KJScanDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KJScanDemo.framework; path = "Pods-KJScanDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8C564CEF5B808D8A2DDAD1A29BC976 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ADE8FDBBB90A9D207D3098E692ED23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69C08ECCEAF2F3DABAD52C230967FCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9C7DB36DA85E5B38EADC905DDFC49C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85CBA5A05461E0717CF8CF29685F650F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A00317C58E79A6B1871A3EB556DC4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA7733A53C589544FD17317A622AE44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7579F2A0C51FE96CD46E084B8B42EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A468BC47D272B3C104BE481DC6668B9 /* Accelerate.framework in Frameworks */,
+				D1A32B19FE4C9F94C2DC1A3CC1A2BC69 /* Foundation.framework in Frameworks */,
+				A9764866038976A28C4D0C54FC6A0379 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8D90B73987DD23BE048A90B4CDD9EBA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B8139CDE00FEDA0271C783ECE065E1E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C161DB51531E10197D7C930BC8A768F1 /* Pods-KJScanDemo */,
+				8F67C22652813CB3411B2062269011A8 /* Pods-KJScanDemo-KJScanDemoUITests */,
+				8E6CB54B47443E400707E466B61F24FE /* Pods-KJScanDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		644A525C5915E6D55F3E08E6DEE816F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97F32D918790B02950645A8869AA2C25 /* KJEmitterView.modulemap */,
+				5844C62A451740BD3D12036233D03044 /* KJEmitterView.xcconfig */,
+				CDFBE936D2D77057B5173D784599670B /* KJEmitterView-dummy.m */,
+				B8EB7164BEE11AA5E44318CAC2C21788 /* KJEmitterView-Info.plist */,
+				92932423D1BE52B5906A5D4338858D45 /* KJEmitterView-prefix.pch */,
+				12719C6C5551876F670F5F9818F94429 /* KJEmitterView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KJEmitterView";
+			sourceTree = "<group>";
+		};
+		644D460712D831800B42E409B03C41CA /* KJEmitterView */ = {
+			isa = PBXGroup;
+			children = (
+				8217D0AA0FFD658624DEBE73300F7343 /* KJEmitterHeader.h */,
+				66460AEF714D6078B0FCB32DC46E1A5C /* Kit */,
+				644A525C5915E6D55F3E08E6DEE816F8 /* Support Files */,
+			);
+			name = KJEmitterView;
+			path = KJEmitterView;
+			sourceTree = "<group>";
+		};
+		661014EF3F03B917F9A1B43171135F67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				644D460712D831800B42E409B03C41CA /* KJEmitterView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66460AEF714D6078B0FCB32DC46E1A5C /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				3B2BB8E5DD19167032FF114AED76608F /* _KJMacros.h */,
+				3C7987D3762EF8761585FCB8C898C39D /* UIBarButtonItem+KJExtension.h */,
+				9F0ABD3D1AE846FF00E0C55FB570C09A /* UIBarButtonItem+KJExtension.m */,
+				6172530881023B24437158FE2BB74886 /* UIButton+KJBlock.h */,
+				ACF3C5EE22FEBF78ED1A100EC64A5A18 /* UIButton+KJBlock.m */,
+				0CBFE6B34BABCB3042DF426FD3057065 /* UIButton+KJButtonContentLayout.h */,
+				8A08FB7310E33DBB4645B8B92D2E8164 /* UIButton+KJButtonContentLayout.m */,
+				72728D7E3F7312E8C76CBA5EF5CD54FC /* UIButton+KJEnlargeTouchArea.h */,
+				93E82991877C1FE6041B360F9362C002 /* UIButton+KJEnlargeTouchArea.m */,
+				2F7D065BC3D24B7003BE62686C13E51C /* UIImage+KJFilter.h */,
+				E776D2CDF9B5D393759DB55ADF87B51E /* UIImage+KJFilter.m */,
+				80ADD201E7EFDD67D60906635071415F /* UIImage+KJFloodFill.h */,
+				E759F9C4B7B7EE7C5DD34F398F18AC8C /* UIImage+KJFloodFill.m */,
+				480E65AAD7932E96128A36837110BD33 /* UIImage+KJProcessing.h */,
+				76492386A68239BDC955A0FFC73FD7C9 /* UIImage+KJProcessing.m */,
+				C28C7B5E655EF45BAEEF87B90120B5A0 /* UILabel+KJAttributedString.h */,
+				AE854F5D22EBCC89B956695A82F20538 /* UILabel+KJAttributedString.m */,
+				E45D02156469D0A10015DCD5937939F3 /* UINavigationBar+KJExtension.h */,
+				33D1420FBF542ADDB4F11E58A929304E /* UINavigationBar+KJExtension.m */,
+				EBC9F53AB0716BE42CBE760EEA43C0A0 /* UITextView+KJLimitCounter.h */,
+				7841EB97902815BC0E80E79B7971787A /* UITextView+KJLimitCounter.m */,
+				5BC2CCC05A08BAE713D0F0536AC3B19E /* UITextView+KJPlaceHolder.h */,
+				3762251F2A7694C9C9BAD9265D473803 /* UITextView+KJPlaceHolder.m */,
+				BC631CA31B3861E3C888CFADCE5A3E4E /* UIView+KJAppointView.h */,
+				A65991448FB3C231CCC60B1650413C22 /* UIView+KJAppointView.m */,
+				10B5F8F43B8F075D93362B6424E3253A /* UIView+KJFrame.h */,
+				6627369F2D710C2E8045747A0828FCBD /* UIView+KJFrame.m */,
+				1365CEEB66C292FF37959611E3E079A2 /* UIView+KJGestureBlock.h */,
+				D9F7824E5BC593E2347FAA34AC3E9954 /* UIView+KJGestureBlock.m */,
+				9BE23D555D27600F07C6E26CF168BD8F /* UIView+KJRectCorner.h */,
+				253D369528E46A2DD3E303C4D21608F7 /* UIView+KJRectCorner.m */,
+				AF1FCFB43E14E0C7F9B62A3FC424A41C /* UIView+KJXib.h */,
+				4E255E31A426627B6FD451B2ADF9A6E0 /* UIView+KJXib.m */,
+			);
+			name = Kit;
+			sourceTree = "<group>";
+		};
+		78A67EF5200D1E7EBF850420B8196D32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FAD55DB8DD57590E1C71A552C31D039 /* KJEmitterView.framework */,
+				F887F2F85F1C0E57F9DE454263F401B5 /* Pods_KJScanDemo.framework */,
+				7A48989B501F24F195EA59849E2F418A /* Pods_KJScanDemo_KJScanDemoUITests.framework */,
+				C96D3E284056DC64EEC9DDEE94ED32D3 /* Pods_KJScanDemoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E6CB54B47443E400707E466B61F24FE /* Pods-KJScanDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				571403CBD7B8198AA058240775B8D765 /* Pods-KJScanDemoTests.modulemap */,
+				8C786A580B06DD6A31F19D230FB50E7D /* Pods-KJScanDemoTests-acknowledgements.markdown */,
+				2B51E3D4A3C237FA85D49B0743DF04C7 /* Pods-KJScanDemoTests-acknowledgements.plist */,
+				67A13B155046A57ABE547FEF2A797D27 /* Pods-KJScanDemoTests-dummy.m */,
+				6DB15E4B55B7F533F12C2DF1BEDE7424 /* Pods-KJScanDemoTests-Info.plist */,
+				8209C2D9C9346B54BB1E3E8E46B2D649 /* Pods-KJScanDemoTests-umbrella.h */,
+				58FF7D839B827919500D4F5ADB7DB44D /* Pods-KJScanDemoTests.debug.xcconfig */,
+				684B94A8F3568E4D055287CC4BD79C41 /* Pods-KJScanDemoTests.release.xcconfig */,
+			);
+			name = "Pods-KJScanDemoTests";
+			path = "Target Support Files/Pods-KJScanDemoTests";
+			sourceTree = "<group>";
+		};
+		8F67C22652813CB3411B2062269011A8 /* Pods-KJScanDemo-KJScanDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93BCF5CB7AF4C1770230887893CEBD9F /* Pods-KJScanDemo-KJScanDemoUITests.modulemap */,
+				4526C50D6167FBFB0A1DB5F913DF31FF /* Pods-KJScanDemo-KJScanDemoUITests-acknowledgements.markdown */,
+				13EDA2E8377CCE59EF0ACDBBF054F6D3 /* Pods-KJScanDemo-KJScanDemoUITests-acknowledgements.plist */,
+				E150519B267DC4F11544AC3D43E3D622 /* Pods-KJScanDemo-KJScanDemoUITests-dummy.m */,
+				D7213CB14E0BF22DDE8BDB5E334FC437 /* Pods-KJScanDemo-KJScanDemoUITests-frameworks.sh */,
+				6F0B8E6769E23AA950ACA25CDBB26F7F /* Pods-KJScanDemo-KJScanDemoUITests-Info.plist */,
+				EC1DA1EB8F1D23E8B24E1BF75806D7CB /* Pods-KJScanDemo-KJScanDemoUITests-umbrella.h */,
+				F134A5CEEA1FC69598EC07951ACDE765 /* Pods-KJScanDemo-KJScanDemoUITests.debug.xcconfig */,
+				E565989494D5434861904B2073B9E0D2 /* Pods-KJScanDemo-KJScanDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-KJScanDemo-KJScanDemoUITests";
+			path = "Target Support Files/Pods-KJScanDemo-KJScanDemoUITests";
+			sourceTree = "<group>";
+		};
+		C161DB51531E10197D7C930BC8A768F1 /* Pods-KJScanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				777A031FDBF26C846AB6C6846FBDB04F /* Pods-KJScanDemo.modulemap */,
+				2A66092AA668809FC4D254AD537F1CFF /* Pods-KJScanDemo-acknowledgements.markdown */,
+				8B73795BF0C3C2CA34D26460AB68F6B0 /* Pods-KJScanDemo-acknowledgements.plist */,
+				3134565B4B001815A83EDD863C4C5EEB /* Pods-KJScanDemo-dummy.m */,
+				01D7B695956E77296D7F3187F967E664 /* Pods-KJScanDemo-frameworks.sh */,
+				9857CC6C1BF0474925FD8C1D4B085278 /* Pods-KJScanDemo-Info.plist */,
+				475DB7A69112EAAC95574A726DFB2A07 /* Pods-KJScanDemo-umbrella.h */,
+				F22C286831A8D048B63926B27D28579B /* Pods-KJScanDemo.debug.xcconfig */,
+				3F678908882A4C16038E86E23FA619BD /* Pods-KJScanDemo.release.xcconfig */,
+			);
+			name = "Pods-KJScanDemo";
+			path = "Target Support Files/Pods-KJScanDemo";
+			sourceTree = "<group>";
+		};
+		C8D90B73987DD23BE048A90B4CDD9EBA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1BA807F5150DFFAA7CA6E6A8AA17A6C7 /* Accelerate.framework */,
+				901A4FD362D028D8375DDAE4615B6D80 /* Foundation.framework */,
+				FB8C564CEF5B808D8A2DDAD1A29BC976 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				661014EF3F03B917F9A1B43171135F67 /* Pods */,
+				78A67EF5200D1E7EBF850420B8196D32 /* Products */,
+				4B8139CDE00FEDA0271C783ECE065E1E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5A17BED8C0D32EC6630A151BAE4EBDC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068E0299E275996315662FC2F3E19F91 /* Pods-KJScanDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80B7454138B6C9219AED7D157E786F49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F68B260075F7B389E7C92C9EA310461 /* _KJMacros.h in Headers */,
+				A3C1BAD0E6CF0143D64CC4E022C382D3 /* KJEmitterHeader.h in Headers */,
+				A36783926956C0226E392DB02D16A504 /* KJEmitterView-umbrella.h in Headers */,
+				6197F47BE67D8FD1646D73A5C75A9ABD /* UIBarButtonItem+KJExtension.h in Headers */,
+				CC836BC77B85A435C00F6B045C695D88 /* UIButton+KJBlock.h in Headers */,
+				32A11592993E2DB29364F1591EA51DE2 /* UIButton+KJButtonContentLayout.h in Headers */,
+				027408D52CE24E65561DFDE7E655F5EF /* UIButton+KJEnlargeTouchArea.h in Headers */,
+				9CCBFAB80AB657D59DAF14EDDA3661D7 /* UIImage+KJFilter.h in Headers */,
+				33A38FD850747A67B58DFAB84F20EFE7 /* UIImage+KJFloodFill.h in Headers */,
+				AB99EA6310D1C8E270CBEFBDD4C2D59A /* UIImage+KJProcessing.h in Headers */,
+				B227CCCF940264168CEF14CF75583FAD /* UILabel+KJAttributedString.h in Headers */,
+				9A52040D5FBD4E3A97DDAA5902CE02A9 /* UINavigationBar+KJExtension.h in Headers */,
+				40F3710A2998B4683CB5FEA1E0CCA3BF /* UITextView+KJLimitCounter.h in Headers */,
+				3B11DBD8FE7B75DF62206471A505E9F9 /* UITextView+KJPlaceHolder.h in Headers */,
+				867EB42D3CB4D702209B941FB101707A /* UIView+KJAppointView.h in Headers */,
+				EA44F28BEFC2AE1E0DEEB56707B40E99 /* UIView+KJFrame.h in Headers */,
+				24F91D19C2F03DC3B286BACE0235D8B3 /* UIView+KJGestureBlock.h in Headers */,
+				B35D762474DBE9032CFE20259984D552 /* UIView+KJRectCorner.h in Headers */,
+				6180BCAA29B375715119ABC19A2CDE5C /* UIView+KJXib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95ACADF715DC104A3C58E2CD592C4FCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50708B4CB3F4D661834B43164BAAB95 /* Pods-KJScanDemo-KJScanDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA34042E382BCA6E44F7AF15423B1B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CAECC4CD8C366533DE9B62391A7D26 /* Pods-KJScanDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3996909D7C52C9F84E0C4A67BCBC4EEC /* KJEmitterView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F726EAE5E99EEDB3ACA89F53C2C1E595 /* Build configuration list for PBXNativeTarget "KJEmitterView" */;
+			buildPhases = (
+				80B7454138B6C9219AED7D157E786F49 /* Headers */,
+				4CAB1E80A085DBB247BFE4994442D16D /* Sources */,
+				EF7579F2A0C51FE96CD46E084B8B42EC /* Frameworks */,
+				CEEC71FB7B3E336DEB925BCD0645C764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJEmitterView;
+			productName = KJEmitterView;
+			productReference = 8FAD55DB8DD57590E1C71A552C31D039 /* KJEmitterView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A3DE0242D273C94D68CA5AB1B7B7E274 /* Pods-KJScanDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02BDB163DED0871903C8D5A5D354AF7 /* Build configuration list for PBXNativeTarget "Pods-KJScanDemoTests" */;
+			buildPhases = (
+				5A17BED8C0D32EC6630A151BAE4EBDC1 /* Headers */,
+				13741D2683ACAF2A91937821FB6CDCBF /* Sources */,
+				8A00317C58E79A6B1871A3EB556DC4F4 /* Frameworks */,
+				722DD28E46A1D9C811DA8F756862F2A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4100F1011DEEF4276A8BF9416D019234 /* PBXTargetDependency */,
+			);
+			name = "Pods-KJScanDemoTests";
+			productName = "Pods-KJScanDemoTests";
+			productReference = C96D3E284056DC64EEC9DDEE94ED32D3 /* Pods_KJScanDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFEE209D1244BD5FDC32D26AEBA1C156 /* Pods-KJScanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70A5A820BF60A2C37549ED3C6E6AD915 /* Build configuration list for PBXNativeTarget "Pods-KJScanDemo" */;
+			buildPhases = (
+				FFA34042E382BCA6E44F7AF15423B1B4 /* Headers */,
+				43360A6214F44291C1CB3E8991421EFA /* Sources */,
+				3ADE8FDBBB90A9D207D3098E692ED23B /* Frameworks */,
+				EA6B929C8B5DF2EA8D0C2437FB361168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C73282A0783296A104695FCC9C3DF5BB /* PBXTargetDependency */,
+			);
+			name = "Pods-KJScanDemo";
+			productName = "Pods-KJScanDemo";
+			productReference = F887F2F85F1C0E57F9DE454263F401B5 /* Pods_KJScanDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8469014ACFDE01FE37CC6D7F5534100 /* Pods-KJScanDemo-KJScanDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39B6B536D942CEC5B21B0FD7BDBFD8F4 /* Build configuration list for PBXNativeTarget "Pods-KJScanDemo-KJScanDemoUITests" */;
+			buildPhases = (
+				95ACADF715DC104A3C58E2CD592C4FCC /* Headers */,
+				45587A5A71F3908D44F3066B0228EB15 /* Sources */,
+				3D9C7DB36DA85E5B38EADC905DDFC49C /* Frameworks */,
+				F808EAB761A105F29C32A73B4F800A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884355311A373D5F30D4122DC2BA330E /* PBXTargetDependency */,
+			);
+			name = "Pods-KJScanDemo-KJScanDemoUITests";
+			productName = "Pods-KJScanDemo-KJScanDemoUITests";
+			productReference = 7A48989B501F24F195EA59849E2F418A /* Pods_KJScanDemo_KJScanDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 78A67EF5200D1E7EBF850420B8196D32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3996909D7C52C9F84E0C4A67BCBC4EEC /* KJEmitterView */,
+				BFEE209D1244BD5FDC32D26AEBA1C156 /* Pods-KJScanDemo */,
+				E8469014ACFDE01FE37CC6D7F5534100 /* Pods-KJScanDemo-KJScanDemoUITests */,
+				A3DE0242D273C94D68CA5AB1B7B7E274 /* Pods-KJScanDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		722DD28E46A1D9C811DA8F756862F2A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEEC71FB7B3E336DEB925BCD0645C764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6B929C8B5DF2EA8D0C2437FB361168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F808EAB761A105F29C32A73B4F800A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13741D2683ACAF2A91937821FB6CDCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69ECCE8E944B5C2AE7601927A5816E29 /* Pods-KJScanDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43360A6214F44291C1CB3E8991421EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B383E922F3F1460B6AB7CA697F59F44 /* Pods-KJScanDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45587A5A71F3908D44F3066B0228EB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE3D968AE94BE4DFAD8DA8D4ABBB277 /* Pods-KJScanDemo-KJScanDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CAB1E80A085DBB247BFE4994442D16D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD09A0DE5C5157737262922D801A5A13 /* KJEmitterView-dummy.m in Sources */,
+				896F247FD1CB574CACD4111099C45A07 /* UIBarButtonItem+KJExtension.m in Sources */,
+				B792BCD03DF6BC41EFA75D43DBBE2AE4 /* UIButton+KJBlock.m in Sources */,
+				E2A873F723D936A9A1B67D37100B6DC2 /* UIButton+KJButtonContentLayout.m in Sources */,
+				DA16209B4F68DCD09673185008F8DF9C /* UIButton+KJEnlargeTouchArea.m in Sources */,
+				224EADCA443866C23876B4CFA0060C95 /* UIImage+KJFilter.m in Sources */,
+				2D8418B3456FC1DD03EAFDC63DF93E58 /* UIImage+KJFloodFill.m in Sources */,
+				EE4C842ECD7533FDB5A0A195E14F3FE0 /* UIImage+KJProcessing.m in Sources */,
+				76FA3584F3B378DDD8C872B29FC30A32 /* UILabel+KJAttributedString.m in Sources */,
+				8EDFE3C866356FF43A599EBCB7DF0D1A /* UINavigationBar+KJExtension.m in Sources */,
+				BDBBB635AC061E3B9E694D24C0A5A311 /* UITextView+KJLimitCounter.m in Sources */,
+				D838E61BA1B942EC36A2A3822BBDA2C5 /* UITextView+KJPlaceHolder.m in Sources */,
+				2518264346D22F4AA10063205AE8364C /* UIView+KJAppointView.m in Sources */,
+				60E88086F2E3BA199D3E58EE3F59F99A /* UIView+KJFrame.m in Sources */,
+				11C5029E8FA9A534A9753746FEF8667C /* UIView+KJGestureBlock.m in Sources */,
+				70FDE1A01A91C4AE6A9E8838797F978B /* UIView+KJRectCorner.m in Sources */,
+				7990EB190D3A4B69ED76CE59BC93EEF6 /* UIView+KJXib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4100F1011DEEF4276A8BF9416D019234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KJScanDemo";
+			target = BFEE209D1244BD5FDC32D26AEBA1C156 /* Pods-KJScanDemo */;
+			targetProxy = 428F6E8028668EB313823C5C7EE91AC6 /* PBXContainerItemProxy */;
+		};
+		884355311A373D5F30D4122DC2BA330E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KJEmitterView;
+			target = 3996909D7C52C9F84E0C4A67BCBC4EEC /* KJEmitterView */;
+			targetProxy = 1922D49D01476F9D62CD07E768021F81 /* PBXContainerItemProxy */;
+		};
+		C73282A0783296A104695FCC9C3DF5BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KJEmitterView;
+			target = 3996909D7C52C9F84E0C4A67BCBC4EEC /* KJEmitterView */;
+			targetProxy = AAC8232E526568B92499F76C37C95278 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3184E2996C98138EF0563C5657E983A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F678908882A4C16038E86E23FA619BD /* Pods-KJScanDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KJScanDemo/Pods-KJScanDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KJScanDemo/Pods-KJScanDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		470DF827C8C1261A511609760E1A7720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5844C62A451740BD3D12036233D03044 /* KJEmitterView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KJEmitterView/KJEmitterView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KJEmitterView/KJEmitterView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KJEmitterView/KJEmitterView.modulemap";
+				PRODUCT_MODULE_NAME = KJEmitterView;
+				PRODUCT_NAME = KJEmitterView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		77B9A002E0545110D1726C4CD35B2E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F22C286831A8D048B63926B27D28579B /* Pods-KJScanDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KJScanDemo/Pods-KJScanDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KJScanDemo/Pods-KJScanDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B3B6B901A395AD1C49AFFB7CBF63ADDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5844C62A451740BD3D12036233D03044 /* KJEmitterView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KJEmitterView/KJEmitterView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KJEmitterView/KJEmitterView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KJEmitterView/KJEmitterView.modulemap";
+				PRODUCT_MODULE_NAME = KJEmitterView;
+				PRODUCT_NAME = KJEmitterView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1C34713E6C4DA984C34AA1CC4462656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E565989494D5434861904B2073B9E0D2 /* Pods-KJScanDemo-KJScanDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KJScanDemo-KJScanDemoUITests/Pods-KJScanDemo-KJScanDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KJScanDemo-KJScanDemoUITests/Pods-KJScanDemo-KJScanDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4595C1DEFFD20B721C195C4DF5A3D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684B94A8F3568E4D055287CC4BD79C41 /* Pods-KJScanDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KJScanDemoTests/Pods-KJScanDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KJScanDemoTests/Pods-KJScanDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE575398EA12857BD3B8CE478F5154F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FF7D839B827919500D4F5ADB7DB44D /* Pods-KJScanDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KJScanDemoTests/Pods-KJScanDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KJScanDemoTests/Pods-KJScanDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD5A63F94B1EF1DBF5079BC84B689289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F134A5CEEA1FC69598EC07951ACDE765 /* Pods-KJScanDemo-KJScanDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KJScanDemo-KJScanDemoUITests/Pods-KJScanDemo-KJScanDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KJScanDemo-KJScanDemoUITests/Pods-KJScanDemo-KJScanDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39B6B536D942CEC5B21B0FD7BDBFD8F4 /* Build configuration list for PBXNativeTarget "Pods-KJScanDemo-KJScanDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD5A63F94B1EF1DBF5079BC84B689289 /* Debug */,
+				E1C34713E6C4DA984C34AA1CC4462656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70A5A820BF60A2C37549ED3C6E6AD915 /* Build configuration list for PBXNativeTarget "Pods-KJScanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B9A002E0545110D1726C4CD35B2E8E /* Debug */,
+				3184E2996C98138EF0563C5657E983A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02BDB163DED0871903C8D5A5D354AF7 /* Build configuration list for PBXNativeTarget "Pods-KJScanDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE575398EA12857BD3B8CE478F5154F5 /* Debug */,
+				E4595C1DEFFD20B721C195C4DF5A3D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F726EAE5E99EEDB3ACA89F53C2C1E595 /* Build configuration list for PBXNativeTarget "KJEmitterView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470DF827C8C1261A511609760E1A7720 /* Debug */,
+				B3B6B901A395AD1C49AFFB7CBF63ADDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

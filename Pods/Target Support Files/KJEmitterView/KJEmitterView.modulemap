@@ -1,0 +1,6 @@
+framework module KJEmitterView {
+  umbrella header "KJEmitterView-umbrella.h"
+
+  export *
+  module * { export * }
+}

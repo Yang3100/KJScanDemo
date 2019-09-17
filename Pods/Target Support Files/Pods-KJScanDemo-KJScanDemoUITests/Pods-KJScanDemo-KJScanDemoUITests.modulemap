@@ -1,0 +1,6 @@
+framework module Pods_KJScanDemo_KJScanDemoUITests {
+  umbrella header "Pods-KJScanDemo-KJScanDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
